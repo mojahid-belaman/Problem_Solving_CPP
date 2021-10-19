@@ -1,5 +1,7 @@
+#include <iostream>
+#include <vector>
 
-string timeConversion(string s) {
+std::string timeConversion(std::string s) {
     std::string s1;
     int hour;
     for (size_t i = 0; i < s.length(); i++) {

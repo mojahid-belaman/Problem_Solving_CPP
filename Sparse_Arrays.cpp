@@ -1,3 +1,5 @@
+#include <iostream>
+#include <vector>
 
 std::vector<int> matchingStrings(std::vector<std::string> strings, std::vector<std::string> queries) 
 {

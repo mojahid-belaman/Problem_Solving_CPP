@@ -1,5 +1,7 @@
+#include <iostream>
+#include <vector>
 
-void miniMaxSum(vector<int> arr) {
+void miniMaxSum(std::vector<int> arr) {
     std::sort(arr.begin(), arr.end());
     long sum_min = 0;
     long sum_max = 0;

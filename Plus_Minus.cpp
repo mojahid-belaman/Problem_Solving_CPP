@@ -1,5 +1,8 @@
+#include <iostream>
+#include <vector>
+#include <iomanip>
 
-void plusMinus(vector<int> arr) {
+void plusMinus(std::vector<int> arr) {
     double pos_count = 0;
     double neg_count = 0;
     double zero_count = 0;
